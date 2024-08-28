@@ -30,4 +30,8 @@ func main() {
 	secexp = val2
 	fmt.Print("secexample", secexp)
 
+	var varadresss *student
+	varadresss = &vishal
+	fmt.Print("vishaladresss", varadresss)
+
 }
