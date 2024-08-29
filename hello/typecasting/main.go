@@ -3,6 +3,7 @@ package main
 import (
 	"fmt"
 	"strconv"
+	"time"
 )
 
 func main() {
@@ -15,4 +16,5 @@ func main() {
 	num := "12345"
 	numint, err := strconv.Atoi(num)
 	fmt.Println("numint =", numint, "err =", err)
+	fmt.Println("now thwe time is", time.Now())
 }
