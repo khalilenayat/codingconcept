@@ -27,6 +27,6 @@ func (user UserA) adduser(a int) {
 	fmt.Println("user ko print krha", user)
 
 }
-func (user UserB) adduser(a int) {
-	fmt.Println("user ko print krha", user)
+func (khalil UserB) adduser(a int) {
+	fmt.Println("user ko print krha", khalil)
 }
